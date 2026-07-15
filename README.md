@@ -1,6 +1,6 @@
-# FySSH
+# Fluresta Notes
 
-SSH learning notes and practice materials for the FySSH course.
+Fluresta learning notes and practice materials for the FySSH course.
 
 ## Classes
 

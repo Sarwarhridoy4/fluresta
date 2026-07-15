@@ -163,8 +163,8 @@ ssh username@server-ip -p port
 
 ```mermaid
 flowchart LR
-    A[ssh] --> B[username@server-ip]
-    B --> C[-p port]
+    A[ssh] --> B[user_at_server_ip]
+    B --> C[port_option]
     C --> D[Establishes encrypted connection]
 ```
 
@@ -324,8 +324,8 @@ flowchart LR
     A[ssh-keygen] --> B[Generate key pair]
     B --> C[Private key]
     B --> D[Public key]
-    C --> E[~/.ssh/id_ed25519]
-    D --> F[~/.ssh/id_ed25519.pub]
+    C --> E[private_key_file]
+    D --> F[public_key_file]
 ```
 
 Explanation:
@@ -436,7 +436,7 @@ Host fileserver
 
 ```mermaid
 flowchart TD
-    A[~/.ssh/config] --> B[Host fileserver]
+    A[ssh_config_file] --> B[Host fileserver]
     B --> C[HostName 172.20.10.44]
     B --> D[User root]
     B --> E[Port 22]

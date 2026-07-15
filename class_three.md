@@ -216,13 +216,13 @@ contains basic information about every user account.
 
 ```mermaid
 flowchart LR
-    A[/etc/passwd] --> B[Username]
+    A[etc_passwd] --> B[Username]
     A --> C[UID]
     A --> D[GID]
     A --> E[Home Directory]
     A --> F[Login Shell]
     A -->|Password placeholder| G[x]
-    G -->|Actual password| H[/etc/shadow]
+    G -->|Actual password| H[etc_shadow]
 ```
 
 View it using:

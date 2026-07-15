@@ -6,19 +6,19 @@
 
 # Table of Contents
 
-1. What is SSH?
-2. Why SSH is Important
-3. Common Uses of SSH
-4. Installing SSH Server
-5. Connecting to a Remote Server
-6. SSH Key Authentication
-7. Generating SSH Keys
-8. Copying Public Keys to Server
-9. Passwordless Login
-10. SSH Config File
-11. Connecting Using Host Alias
-12. Windows SSH Key Setup
-13. Best Practices
+1. [What is SSH?](#1-what-is-ssh)
+2. [Why SSH is Important](#2-why-ssh-is-important)
+3. [Common Uses of SSH](#3-common-uses-of-ssh)
+4. [Testing SSH Port](#4-testing-ssh-port)
+5. [Connecting to a Server](#5-connecting-to-a-server)
+6. [SSH Key Authentication](#6-ssh-key-authentication)
+7. [Generating SSH Keys](#7-generating-ssh-keys)
+8. [Copying Public Keys to Server](#8-copying-public-keys-to-server)
+9. [Passwordless Login](#9-passwordless-login)
+10. [SSH Config File](#10-ssh-config-file)
+11. [Connecting Using Host Alias](#11-connecting-using-host-alias)
+12. [Windows SSH Key Setup](#12-windows-ssh-key-setup)
+13. [Best Practices](#13-best-practices)
 
 ---
 

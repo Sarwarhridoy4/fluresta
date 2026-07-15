@@ -6,25 +6,25 @@
 
 # Table of Contents
 
-1. What is Linux Shell?
-2. How Shell Works
-3. Popular Linux Shells
-4. Viewing Installed Shells
-5. Checking Your Current Shell
-6. Installing Different Shells
-7. Switching Shells
-8. Changing the Default Shell
-9. Applying Shell Changes
-10. Bash vs Zsh
-11. EPEL Repository
-12. Basic Text Processing Commands
-13. Environment Variables
-14. Persistent Environment Variables
-15. File Viewing Commands
-16. Searching Text
-17. Counting Lines and Words
-18. Best Practices
-19. Summary
+1. [What is Linux Shell?](#1-what-is-linux-shell)
+2. [How Shell Works](#2-how-shell-works)
+3. [Popular Linux Shells](#3-popular-linux-shells)
+4. [Viewing Installed Shells](#4-viewing-installed-shells)
+5. [Checking Your Current Shell](#5-checking-your-current-shell)
+6. [Installing Different Shells](#6-installing-different-shells)
+7. [Switching Shells](#7-switching-shells)
+8. [Changing the Default Shell](#8-changing-the-default-shell)
+9. [Applying Shell Changes](#9-applying-shell-changes)
+10. [Bash vs Zsh](#10-bash-vs-zsh)
+11. [EPEL Repository](#11-epel-repository)
+12. [Basic Text Processing Commands](#12-basic-text-processing-commands)
+13. [Environment Variables](#13-environment-variables)
+14. [Persistent Environment Variables](#14-persistent-environment-variables)
+15. [File Viewing Commands](#15-file-viewing-commands)
+16. [Searching Text](#16-searching-text)
+17. [Counting Lines and Words](#17-counting-lines-and-words)
+18. [Best Practices](#18-best-practices)
+19. [Summary](#19-summary)
 
 ---
 

@@ -6,22 +6,22 @@
 
 # Table of Contents
 
-1. What is an Operating System?
-2. Responsibilities of an Operating System
-3. History of UNIX
-4. Birth of Linux
-5. Linux vs UNIX
-6. GNU Project
-7. Why GNU/Linux?
-8. Linux Distribution Ecosystem
-9. Fedora → CentOS Stream → RHEL
-10. RHEL vs CentOS Stream
-11. Linux Distribution Families
-12. Package Formats & Package Managers
-13. Embedded Systems
-14. Virtualization Basics
-15. Best Practices
-16. Summary
+1. [What is an Operating System?](#1-what-is-an-operating-system)
+2. [Responsibilities of an Operating System](#2-responsibilities-of-an-operating-system)
+3. [History of UNIX](#3-history-of-unix)
+4. [Birth of Linux](#4-birth-of-linux)
+5. [Linux vs UNIX](#5-linux-vs-unix)
+6. [GNU Project](#6-gnu-project)
+7. [Why GNU/Linux?](#7-why-gnulinux)
+8. [Linux Distribution Ecosystem](#8-linux-distribution-ecosystem)
+9. [Fedora → CentOS Stream → RHEL](#9-fedora--centos-stream--rhel)
+10. [RHEL vs CentOS Stream](#10-rhel-vs-centos-stream)
+11. [Linux Distribution Families](#11-linux-distribution-families)
+12. [Package Formats & Package Managers](#12-package-formats--package-managers)
+13. [Embedded Systems](#13-embedded-systems)
+14. [Virtualization Basics](#14-virtualization-basics)
+15. [Best Practices](#15-best-practices)
+16. [Summary](#16-summary)
 
 ---
 

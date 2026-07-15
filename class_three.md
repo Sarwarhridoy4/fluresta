@@ -6,21 +6,21 @@
 
 # Table of Contents
 
-1. Introduction
-2. What is a User?
-3. Types of Linux Users
-4. User ID (UID) and Group ID (GID)
-5. The `/etc/passwd` File
-6. Understanding `/etc/passwd` Fields
-7. Creating Users
-8. The `/etc/shadow` File
-9. Understanding `/etc/shadow` Fields
-10. Setting and Changing Passwords
-11. Viewing User Information
-12. Renaming Users
-13. Useful User Management Commands
-14. Best Practices
-15. Summary
+1. [Introduction](#1-introduction)
+2. [What is a User?](#2-what-is-a-user)
+3. [Types of Linux Users](#3-types-of-linux-users)
+4. [User ID (UID) and Group ID (GID)](#4-user-id-uid-and-group-id-gid)
+5. [The `/etc/passwd` File](#5-the-etcpasswd-file)
+6. [Understanding `/etc/passwd` Fields](#6-understanding-etcpasswd-fields)
+7. [Creating Users](#7-creating-users)
+8. [The `/etc/shadow` File](#8-the-etcshadow-file)
+9. [Understanding `/etc/shadow` Fields](#9-understanding-etcshadow-fields)
+10. [Setting and Changing Passwords](#10-setting-and-changing-passwords)
+11. [Viewing User Information](#11-viewing-user-information)
+12. [Renaming a User](#12-renaming-a-user)
+13. [Useful User Management Commands](#13-useful-user-management-commands)
+14. [Best Practices](#14-best-practices)
+15. [Summary](#summary)
 
 ---
 

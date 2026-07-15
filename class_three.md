@@ -68,6 +68,22 @@ Every user has:
 
 Linux mainly has **three types of users**.
 
+```mermaid
+flowchart TD
+    A[Linux Users] --> B[Root User]
+    A --> C[System Users]
+    A --> D[Regular Users]
+
+    B --> B1[UID 0]
+    B --> B2[Full system control]
+
+    C --> C1[UID 1-999]
+    C --> C2[Services & applications]
+
+    D --> D1[UID 1000+]
+    D --> D2[Human accounts]
+```
+
 ---
 
 ## Root User
@@ -198,6 +214,17 @@ The file:
 
 contains basic information about every user account.
 
+```mermaid
+flowchart LR
+    A[/etc/passwd] --> B[Username]
+    A --> C[UID]
+    A --> D[GID]
+    A --> E[Home Directory]
+    A --> F[Login Shell]
+    A -->|Password placeholder| G[x]
+    G -->|Actual password| H[/etc/shadow]
+```
+
 View it using:
 
 ```bash
@@ -257,6 +284,13 @@ sudo useradd hasan
 ```
 
 This creates the account but does **not** set a password.
+
+```mermaid
+flowchart LR
+    A[sudo useradd hasan] --> B[Creates account entry]
+    B --> C[No password set]
+    C --> D[User cannot login until passwd is set]
+```
 
 ---
 

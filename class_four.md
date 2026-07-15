@@ -50,6 +50,12 @@ The problem with Telnet was:
 
 SSH solves these issues by encrypting all communication between the client and the server.
 
+```mermaid
+flowchart LR
+    A[Telnet] -->|Plain text| B[Password exposed]
+    C[SSH] -->|Encrypted| D[Secure communication]
+```
+
 ---
 
 # 3. Common Uses of SSH
@@ -153,6 +159,13 @@ General syntax:
 
 ```bash
 ssh username@server-ip -p port
+```
+
+```mermaid
+flowchart LR
+    A[ssh] --> B[username@server-ip]
+    B --> C[-p port]
+    C --> D[Establishes encrypted connection]
 ```
 
 Example:
@@ -287,6 +300,15 @@ Example:
 
 This file is safe to share.
 
+```mermaid
+flowchart LR
+    A[Local Computer] -->|Stores| B[Private Key]
+    A -->|Sends| C[Public Key]
+    C -->|Uploaded to| D[Server]
+    D -->|Stores in| E[authorized_keys]
+    B -->|Never shared| F[Keep secret]
+```
+
 ---
 
 # 8. Generate SSH Keys
@@ -295,6 +317,15 @@ Recommended algorithm:
 
 ```bash
 ssh-keygen -t ed25519 -C "Office Desktop"
+```
+
+```mermaid
+flowchart LR
+    A[ssh-keygen] --> B[Generate key pair]
+    B --> C[Private key]
+    B --> D[Public key]
+    C --> E[~/.ssh/id_ed25519]
+    D --> F[~/.ssh/id_ed25519.pub]
 ```
 
 Explanation:
@@ -371,6 +402,15 @@ ssh root@172.20.10.44
 
 No password is required (unless the private key has a passphrase).
 
+```mermaid
+flowchart LR
+    A[ssh root@server] --> B[Server checks authorized_keys]
+    B --> C{Public key found?}
+    C -->|Yes| D[Challenge with private key]
+    C -->|No| E[Password authentication]
+    D --> F[Login successful]
+```
+
 ---
 
 # 12. SSH Config File
@@ -392,6 +432,18 @@ Host fileserver
     IdentitiesOnly yes
     ServerAliveInterval 20
     ServerAliveCountMax 2
+```
+
+```mermaid
+flowchart TD
+    A[~/.ssh/config] --> B[Host fileserver]
+    B --> C[HostName 172.20.10.44]
+    B --> D[User root]
+    B --> E[Port 22]
+    B --> F[IdentityFile]
+    B --> G[IdentitiesOnly yes]
+    B --> H[ServerAliveInterval 20]
+    B --> I[ServerAliveCountMax 2]
 ```
 
 ---

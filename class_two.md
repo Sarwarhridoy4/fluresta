@@ -49,36 +49,26 @@ Without the shell, users cannot directly communicate with the Linux kernel.
 
 ## Request (Input) Flow
 
-```text
-User
-   ↓
-Keyboard
-   ↓
-Terminal
-   ↓
-Shell
-   ↓
-Kernel
-   ↓
-Hardware
+```mermaid
+flowchart LR
+    A[User] --> B[Keyboard]
+    B --> C[Terminal]
+    C --> D[Shell]
+    D --> E[Kernel]
+    E --> F[Hardware]
 ```
 
 ---
 
 ## Response (Output) Flow
 
-```text
-Hardware
-   ↓
-Kernel
-   ↓
-Shell
-   ↓
-Terminal
-   ↓
-Display
-   ↓
-User
+```mermaid
+flowchart LR
+    A[Hardware] --> B[Kernel]
+    B --> C[Shell]
+    C --> D[Terminal]
+    D --> E[Display]
+    E --> F[User]
 ```
 
 This illustrates how the shell acts as a bridge between the user and the operating system.
@@ -470,6 +460,12 @@ Display the contents of a file.
 cat file.txt
 ```
 
+```mermaid
+flowchart LR
+    A[cat file.txt] --> B[Read file]
+    B --> C[Display content to terminal]
+```
+
 Display multiple files:
 
 ```bash
@@ -542,6 +538,14 @@ unset myname
 
 Temporary variables disappear after the shell session ends.
 
+```mermaid
+flowchart LR
+    A[Create variable] --> B[myname="Rahman"]
+    B --> C[Available in current session]
+    C --> D[Session ends]
+    D --> E[Variable disappears]
+```
+
 ---
 
 # 14. Persistent Environment Variables
@@ -571,6 +575,14 @@ echo $CEO
 ```
 
 This variable will now be available in future Bash sessions.
+
+```mermaid
+flowchart LR
+    A[Edit ~/.bashrc] --> B[Add export variable]
+    B --> C[source ~/.bashrc]
+    C --> D[Variable loaded]
+    D --> E[Available in all future sessions]
+```
 
 ---
 
@@ -652,10 +664,16 @@ Useful navigation:
 
 Search for text inside files.
 
-Basic search:
-
 ```bash
 grep "hello" file.txt
+```
+
+```mermaid
+flowchart LR
+    A[grep "pattern" file] --> B[Search file]
+    B --> C{Match found?}
+    C -->|Yes| D[Return matching lines]
+    C -->|No| E[No output]
 ```
 
 Ignore case:

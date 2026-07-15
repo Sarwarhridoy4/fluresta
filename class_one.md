@@ -44,14 +44,10 @@ The OS manages these resources and provides services to applications.
 
 ## Operating System as a Bridge
 
-```text
-User
-      │
-      ▼
-Operating System
-      │
-      ▼
-Hardware
+```mermaid
+flowchart LR
+    A[User] --> B[Operating System]
+    B --> C[Hardware]
 ```
 
 The operating system hides hardware complexity from the user.
@@ -316,14 +312,10 @@ Different organizations package Linux differently.
 
 The Red Hat ecosystem follows this flow:
 
-```text
-Fedora
-     │
-     ▼
-CentOS Stream
-     │
-     ▼
-Red Hat Enterprise Linux (RHEL)
+```mermaid
+flowchart LR
+    A[Fedora] --> B[CentOS Stream]
+    B --> C[RHEL]
 ```
 
 ---
@@ -615,12 +607,12 @@ There are two common types.
 
 Runs directly on the hardware.
 
-```text
-Hardware
-    │
-Hypervisor
-    │
-Virtual Machines
+```mermaid
+flowchart TD
+    A[Hardware] --> B[Type 1 Hypervisor]
+    B --> C[Virtual Machine 1]
+    B --> D[Virtual Machine 2]
+    B --> E[Virtual Machine 3]
 ```
 
 Examples:
@@ -642,14 +634,12 @@ Advantages:
 
 Runs on top of an existing operating system.
 
-```text
-Hardware
-    │
-Host Operating System
-    │
-Hypervisor
-    │
-Virtual Machines
+```mermaid
+flowchart TD
+    A[Hardware] --> B[Host Operating System]
+    B --> C[Type 2 Hypervisor]
+    C --> D[Virtual Machine 1]
+    C --> E[Virtual Machine 2]
 ```
 
 Examples:

@@ -4,6 +4,23 @@ SSH learning notes and practice materials for the FySSH course.
 
 ## Classes
 
+- [Class 01 - Linux System Administration Introduction & Linux Fundamentals](class_one.md)
+  - [What is an Operating System?](class_one.md#1-what-is-an-operating-system)
+  - [Responsibilities of an Operating System](class_one.md#2-responsibilities-of-an-operating-system)
+  - [History of UNIX](class_one.md#3-history-of-unix)
+  - [Birth of Linux](class_one.md#4-birth-of-linux)
+  - [Linux vs UNIX](class_one.md#5-linux-vs-unix)
+  - [GNU Project](class_one.md#6-gnu-project)
+  - [Why GNU/Linux?](class_one.md#7-why-gnulinux)
+  - [Linux Distribution Ecosystem](class_one.md#8-linux-distribution-ecosystem)
+  - [Fedora → CentOS Stream → RHEL](class_one.md#9-fedora--centos-stream--rhel)
+  - [RHEL vs CentOS Stream](class_one.md#10-rhel-vs-centos-stream)
+  - [Linux Distribution Families](class_one.md#11-linux-distribution-families)
+  - [Package Formats & Package Managers](class_one.md#12-package-formats--package-managers)
+  - [Embedded Systems](class_one.md#13-embedded-systems)
+  - [Virtualization Basics](class_one.md#14-virtualization-basics)
+  - [Best Practices](class_one.md#15-best-practices)
+  - [Summary](class_one.md#16-summary)
 - [Class 02 - Linux Shell & Basic Text Processing](class_two.md)
   - [What is Linux Shell?](class_two.md#1-what-is-linux-shell)
   - [How Shell Works](class_two.md#2-how-shell-works)

@@ -412,7 +412,7 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-    ROOT["/ (Root Directory)"] --> bin[/bin]
+    ROOT["/ Root Directory"] --> bin[/bin]
     ROOT --> boot[/boot]
     ROOT --> dev[/dev]
     ROOT --> etc[/etc]

@@ -412,20 +412,21 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-    ROOT["/ Root Directory"] --> bin[/bin]
-    ROOT --> boot[/boot]
-    ROOT --> dev[/dev]
-    ROOT --> etc[/etc]
-    ROOT --> home[/home]
-    ROOT --> lib[/lib]
-    ROOT --> media[/media]
-    ROOT --> mnt[/mnt]
-    ROOT --> opt[/opt]
-    ROOT --> sbin[/sbin]
-    ROOT --> srv[/srv]
-    ROOT --> tmp[/tmp]
-    ROOT --> usr[/usr]
-    ROOT --> proc[/proc]
+    ROOT["/ Root Directory"]
+    ROOT --> dir_bin[/bin]
+    ROOT --> dir_boot[/boot]
+    ROOT --> dir_dev[/dev]
+    ROOT --> dir_etc[/etc]
+    ROOT --> dir_home[/home]
+    ROOT --> dir_lib[/lib]
+    ROOT --> dir_media[/media]
+    ROOT --> dir_mnt[/mnt]
+    ROOT --> dir_opt[/opt]
+    ROOT --> dir_sbin[/sbin]
+    ROOT --> dir_srv[/srv]
+    ROOT --> dir_tmp[/tmp]
+    ROOT --> dir_usr[/usr]
+    ROOT --> dir_proc[/proc]
 ```
 
 ---

@@ -10,6 +10,7 @@ Fluresta learning notes and practice materials for the FySSH course.
   - [Class 03 - Linux User and Group Administration](learning_outcomes.md#class-03)
   - [Class 04 - SSH Complete Study Notes](learning_outcomes.md#class-04)
   - [Class 04 - SSH (Secure Shell) — Updated](learning_outcomes.md#class-04-ssh-secure-shell--updated)
+  - [Class 06 - User and Group Administration (Part-02)](learning_outcomes.md#class-06)
 - [Class 01 - Linux System Administration Introduction & Linux Fundamentals](class_one.md)
   - [What is an Operating System?](class_one.md#1-what-is-an-operating-system)
   - [Responsibilities of an Operating System](class_one.md#2-responsibilities-of-an-operating-system)

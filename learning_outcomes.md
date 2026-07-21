@@ -93,17 +93,3 @@ This updated class covers SSH fundamentals, secure key-based authentication setu
 This class covers advanced user and group administration tasks including modifying existing user accounts with `usermod` for attributes like full name, shell, and group membership, as well as account locking and expiration management. Students learn group administration commands (`groupadd`, `gpasswd`, `getent`) and how to configure sudo access for administrators on both Debian and Red Hat-based systems. The class emphasizes sudo security best practices including the principle of least privilege, fine-grained command authorization using `Cmnd_Alias`, and proper sudoers file management with `visudo`.
 
 ---
-
-## Class 06 - User and Group Administration (Part-02)
-
-### Learning Outcomes
-
-- Modify existing user accounts using `usermod` to change full names, login shells, group memberships, home directories, and usernames
-- Manage user account security and expiration using `usermod -L`, `usermod -U`, `usermod -e`, and `usermod -s /sbin/nologin`
-- Create and administer groups using `groupadd`, `gpasswd`, and `getent`, including setting group administrators and managing GIDs
-- Configure sudo privileges by adding users to the `sudo` or `wheel` group and managing policies with `visudo`
-- Apply sudo security best practices including the principle of least privilege, specific command authorization with `Cmnd_Alias`, and using `/etc/sudoers.d/` instead of editing `/etc/sudoers` directly
-
-### Summary
-
-This class covers advanced user and group administration tasks including modifying existing user accounts with `usermod` for attributes like full name, shell, and group membership, as well as account locking and expiration management. Students learn group administration commands (`groupadd`, `gpasswd`, `getent`) and how to configure sudo access for administrators on both Debian and Red Hat-based systems. The class emphasizes sudo security best practices including the principle of least privilege, fine-grained command authorization using `Cmnd_Alias`, and proper sudoers file management with `visudo`.
